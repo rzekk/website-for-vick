@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/website-for-vick/static/css/main.1f8a4425.css",
-    "main.js": "/website-for-vick/static/js/main.52e26433.js",
+    "main.js": "/website-for-vick/static/js/main.8a3df1e3.js",
     "static/media/bytheway.png": "/website-for-vick/static/media/bytheway.ba310ce9a35a735b4199.png",
     "static/media/maybe.png": "/website-for-vick/static/media/maybe.bb5301d465bffe7c69df.png",
     "static/media/wonderwall.png": "/website-for-vick/static/media/wonderwall.6e9a891791adfe807b1c.png",
@@ -25,10 +25,10 @@
     "static/media/black_album.png": "/website-for-vick/static/media/black_album.73d36855daa7b2c1b9ce.png",
     "index.html": "/website-for-vick/index.html",
     "main.1f8a4425.css.map": "/website-for-vick/static/css/main.1f8a4425.css.map",
-    "main.52e26433.js.map": "/website-for-vick/static/js/main.52e26433.js.map"
+    "main.8a3df1e3.js.map": "/website-for-vick/static/js/main.8a3df1e3.js.map"
   },
   "entrypoints": [
     "static/css/main.1f8a4425.css",
-    "static/js/main.52e26433.js"
+    "static/js/main.8a3df1e3.js"
   ]
 }
