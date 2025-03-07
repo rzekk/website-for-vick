@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+img {
+  display: block;
+}
+
+a:any-link {
+  color: #fff;
+}
+
+.Home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 600px;
+  height: 100vh
+}
+
+.Music {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  width: 100%;
+  max-width: 1000px;
+  position: relative;
+}
+
+.Letters {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.Images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.hero {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+
+.hero p {
+  font-size: 2rem;
+  font-weight: 600;
+  background: linear-gradient(90deg, #ff758c, #ff7eb3);
+  -webkit-background-clip: text;
+  color: transparent;
+  text-wrap: none;
+}
+
+.hero .homeText {
+  font-size: 3rem;
+}
+
+nav {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  display: flex;
+}
+
+nav button {
+  background-color: transparent;
+  width: 48px;
+  height: 48px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 1.25rem;
+  cursor: pointer;
+  margin: 10px;
+}
+
+nav button:hover {
+  background-color: #fff;
+  color: #7d7d7d;
+}
+
+.songs {
+  max-width: 1500px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.song {
+  width: 250px;
+  height: 60px;
+  border-radius: 8px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  position: relative;
+}
+
+.albumCover {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+}
+
+.songTitle {
+  position: absolute;
+  left: 80px;
+  top: 15px;
+  font-weight: bold;
+}
+
+.songAuthor {
+  position: absolute;
+  left: 80px;
+  top: 45px;
+}
+
+.homeButton {
+  background-color: transparent;
+  width: 48px;
+  height: 48px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 1.25rem;
+  cursor: pointer;
+  margin: 10px;
+  margin-left: 30px;
+}
+
+.homeButton:hover {
+  background-color: #fff;
+  color: #7d7d7d;
+}
+
+.carousel {
+  width: 600px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 900%;
+}
+
+.slide {
+  height: 300px;
+  background: rgba(255, 255, 255, 0.2);
+  flex: 0 0 100%; /* Забороняємо зменшення */
+  display: flex; /* Вирівнюємо вміст */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.carousel button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  width: 48px;
+  height: 48px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 1.25rem;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.prev {
+  left: 10px;
+  z-index: 1;
+}
+
+.next {
+  right: 10px;
+  z-index: 1;
+}
+
+.carousel button:hover {
+  background-color: #fff;
+  color: #7d7d7d;
+}
+
+.slide p {
+  white-space: pre-line; /* Дозволяє переносити текст по \n */
+}
+
+.images {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.images img {
+  width: 25%;
+  height: 25%;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .images img {
+    width: 75%;
+    height: 75%;
+  }
+
+  .images {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .carousel {
+    width: 400px;
+  }
+
+  .songs {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+}
