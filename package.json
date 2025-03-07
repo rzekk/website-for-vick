@@ -2,7 +2,7 @@
   "name": "lovewebsite",
   "version": "0.1.0",
   "homepage": "https://rzekk.github.io/website-for-vick",
-  "private": true,
+  "private": false,
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
