@@ -19,17 +19,17 @@ const Images = () => {
     <div className='Images'>
         <header className='hero'><p>Photos</p><Link to='/'><button className='homeButton'><FaHome /></button></Link></header>
         <main className='images'>
-            <img src={photo1} />
-            <img src={photo2} />
-            <img src={photo4} />
-            <img src={photo5} />
-            <img src={photo9} />
-            <img src={photo10} />
-            <img src={photo6} />
-            <img src={photo7} />
-            <img src={photo8} />
-            <img src={photo11} />
-            <img src={photo12} />
+            <img src={photo1} alt='' />
+            <img src={photo2} alt='' />
+            <img src={photo4} alt='' />
+            <img src={photo5} alt='' />
+            <img src={photo9} alt='' />
+            <img src={photo10} alt='' />
+            <img src={photo6} alt='' />
+            <img src={photo7} alt='' />
+            <img src={photo8} alt='' />
+            <img src={photo11} alt='' />
+            <img src={photo12} alt='' />
         </main>
     </div>
   )
